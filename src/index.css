@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  height: 1000px;
+  color: "red";
+  background-color: rgb(96, 94, 218);
+}
