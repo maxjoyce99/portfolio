@@ -13,7 +13,7 @@ import resume from './images/Maxwell_Joyce_Resume.pdf'
 function App() {
   return (
     <>
-    <header class="d-flex flex-box w-100 bg-secondary" style={{ height: '75px' }}>
+    <header class="d-flex flex-box w-100 bg-dark" style={{ height: '75px' }}>
 
       <nav class="navbar navbar-expand navbar-dark w-75 h-100">
         <ul class="navbar-nav">
@@ -39,14 +39,17 @@ function App() {
         </div>
     </header>
 
-    <body className="App">
+    <body class="App">
       <section id="about" class="w-75 mx-auto" style={{ height: '300px' }}>
         <div class="d-flex justify-content-center flex-box h-100 p-2">
           <img class ="w-25 h-100" src={me_hot_spring}/>
           <div class="w-50 h-75 m-2">
-            <h2 class=" w-50 h-25">Hi, I'm Max Joyce!</h2>
-            <p class="w-100 h-50"> I am a fullstack software engineer with experience using Javascript, React, Node.js, HTML, CSS, and MongoDB to create web applications. I also have experience using Docker and Kubernetes to containerize and deploy web applications. Also proficient with SQL, QML, Python,  and C++.</p>
-            <div class="w-50 h-25">
+            <h2 class="w-100 h-25 align-self-center">Hi, I'm Max Joyce!</h2>
+            <p class="w-100 h-50 p-2"> I am a fullstack software engineer with experience using 
+              Javascript, React, Node.js, HTML, CSS, and MongoDB to create web applications. 
+              I also have experience using Docker and Kubernetes to containerize and deploy web applications. 
+              Also proficient with SQL, QML, Python,  and C++.</p>
+            <div class="w-100 h-25 mt-3 jusfity-content-center">
               <h5>More About Me: </h5>
 
               <a class="m-2" href={resume} target="_blank"
