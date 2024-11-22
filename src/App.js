@@ -6,6 +6,7 @@ import CSS3 from './images/CSS3.png';
 import html5 from './images/html5.png';
 import node from './images/node.png';
 import react from './images/react.png';
+import me_hot_spring from './images/me_hot_spring.jpg'
 
 
 function App() {
@@ -22,12 +23,12 @@ function App() {
     <body className="App">
       <section class="w-75 mx-auto" style={{ height: '300px' }}>
         <div class="d-flex flex-box h-100">
-          <img class ="w-25 h-100 m-2" src={react}/>
+          <img class ="w-25 h-100 m-2" src={me_hot_spring}/>
           <div class="w-50 h-75 m-2">
             <h2 class=" w-50 h-25">Hi, I'm Max Joyce!</h2>
             <p class="w-100 h-50"> I am a fullstack software engineer with experience using Javascript, React, Node.js, HTML, CSS, and MongoDB to create web applications. I also have experience using Docker and Kubernetes to containerize and deploy web applications. Also proficient with SQL, QML, Python,  and C++.</p>
             <div class="w-50 h-25">
-            <h5>Relevant Link: Resume LinkedIn</h5>
+            <h5>Relevant Links: Resume LinkedIn</h5>
             </div>
 
           </div>
@@ -78,6 +79,7 @@ function App() {
               <li> Integrated a front end, back end, and database, highlighting full-stack development skills</li>
               <li> Implemented user profiles with maps and image points for each user</li>
               <li> Added functionality for users to connect and befriend each other</li>
+              <li> Example Credentials</li>
               </ul>
           </div>
 
