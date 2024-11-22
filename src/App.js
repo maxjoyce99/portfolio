@@ -7,6 +7,7 @@ import html5 from './images/html5.png';
 import node from './images/node.png';
 import react from './images/react.png';
 import me_hot_spring from './images/me_hot_spring.jpg'
+import resume from './images/Maxwell_Joyce_Resume.pdf'
 
 
 function App() {
@@ -46,7 +47,17 @@ function App() {
             <h2 class=" w-50 h-25">Hi, I'm Max Joyce!</h2>
             <p class="w-100 h-50"> I am a fullstack software engineer with experience using Javascript, React, Node.js, HTML, CSS, and MongoDB to create web applications. I also have experience using Docker and Kubernetes to containerize and deploy web applications. Also proficient with SQL, QML, Python,  and C++.</p>
             <div class="w-50 h-25">
-            <h5>Relevant Links: Resume LinkedIn</h5>
+              <h5>More About Me: </h5>
+
+              <a class="m-2" href={resume} target="_blank"
+                      rel="noreferrer">
+                      Resume
+              </a>
+
+              <a class="m-2" href="https://www.linkedin.com/in/maxwell-joyce-66b753112">
+                      LinkedIn
+              </a>
+
             </div>
 
           </div>
@@ -54,9 +65,9 @@ function App() {
         </div>
       </section>
 
-      <section id="skills" class="w-50 mx-auto" style={{ height: '300px' }}>
+      <section id="skills" class="w-50 mx-auto" style={{ height: '200px' }}>
         <h2>Skills</h2>
-        <div class="row justify-content-xl-between h-50" >
+        <div class="row justify-content-xl-between h-75" >
           <div class="skills_card col border border-white h-100 p-2 m-2 rounded ">
             <img class ="img-fluid" src={html5}/>
             <h6>HTML</h6>
@@ -87,7 +98,7 @@ function App() {
 
       </section>
 
-      <section id="projects" class="w-75 mx-auto" style={{ height: '500px' }}>
+      <section id="projects" class="w-75 mx-auto m-4" style={{ height: '500px' }}>
         <h2>Projects</h2>
         <div class="d-flex flex-row mb-3 justify-content-center justify-content-between">
           <div class="rounded border w-50 p-2 m-2">
