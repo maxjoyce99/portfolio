@@ -70,28 +70,29 @@ function App() {
 
       <section id="skills" class="w-50 mx-auto m-4 " style={{ height: '200px' }}>
         <h2>Skills</h2>
-        <div class="row justify-content-xl-between h-75" >
-          <div class="skills_card col border border-white h-100 p-2 m-2 rounded ">
-            <img class ="img-fluid" src={html5}/>
-            <h6>HTML</h6>
-          </div>  
+        <div class="row h-75" >
 
-          <div class="col border border-white h-100 p-2 m-2 rounded ">
-            <img class ="img-fluid" src={js}/>
-            <h6>JavaScript</h6>
+          <div class="col d-flex flex-column align-items-center justify-content-center border border-white h-100 p-2 m-2 rounded">
+              <img class ="img-fluid" src={react}/>
+              <h6>React</h6>
           </div>
 
-          <div class="col border border-white h-100 p-2 m-2 rounded ">
+          <div class="col d-flex flex-column align-items-center justify-content-center border border-white h-100 p-2 m-2 rounded">
             <img class ="img-fluid" src={node}/>
             <h6>Node.js</h6>
           </div>
 
-          <div class="col border border-white h-100 p-2 m-2 rounded ">
-            <img class ="img-fluid" src={react}/>
-            <h6>React</h6>
+          <div class="col d-flex flex-column align-items-center justify-content-center border border-white h-100 p-2 m-2 rounded">
+            <img class ="img-fluid" src={html5}/>
+            <h6>HTML</h6>
+          </div>  
+
+          <div class="col d-flex flex-column align-items-center justify-content-center border border-white h-100 p-2 m-2 rounded">
+            <img class ="img-fluid" src={js}/>
+            <h6>JavaScript</h6>
           </div>
 
-          <div class="col border border-white h-100 p-2 m-2 rounded ">
+          <div class="col d-flex flex-column align-items-center justify-content-center border border-white h-100 p-2 m-2 rounded">
             <img class ="img-fluid" src={CSS3}/>
             <h6>CSS</h6>
           </div>
