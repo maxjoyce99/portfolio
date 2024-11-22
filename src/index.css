@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+*{
+  color:whitesmoke
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -15,10 +19,14 @@ code {
 .App{
   height: 1000px;
   color: "red";
-  background-color: rgb(96, 94, 218);
+  background-color: #272626;
 }
 
 .img-fluid{
   max-height:30%;
+
+}
+
+.skills_card{
 
 }
