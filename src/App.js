@@ -41,7 +41,7 @@ function App() {
 
     <body class="App">
       <section id="about" class="w-75 mx-auto" style={{ height: '300px' }}>
-        <div class="d-flex justify-content-center flex-box h-100 p-2">
+        <div class="d-flex justify-content-center flex-box h-100 p-4">
           <img class ="w-25 h-100" src={me_hot_spring}/>
           <div class="w-50 h-75 m-2">
             <h2 class="w-100 h-25 align-self-center">Hi, I'm Max Joyce!</h2>
@@ -68,7 +68,7 @@ function App() {
         </div>
       </section>
 
-      <section id="skills" class="w-50 mx-auto" style={{ height: '200px' }}>
+      <section id="skills" class="w-50 mx-auto m-4 " style={{ height: '200px' }}>
         <h2>Skills</h2>
         <div class="row justify-content-xl-between h-75" >
           <div class="skills_card col border border-white h-100 p-2 m-2 rounded ">
