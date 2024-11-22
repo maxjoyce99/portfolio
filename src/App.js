@@ -19,17 +19,19 @@ function App() {
     </header>
 
     <body className="App">
-      <section class="w-50 mx-auto" style={{ height: '300px' }}>
-        <h2>Hi, I'm Max Joyce</h2>
-        <p>Fullstack software engineer with experience using Javascript, React, Node.js, HTML, CSS, and MongoDB to create web applications. Experience using Docker and Kubernetes to containerize and deploy web applications. Also proficient with SQL, QML, Python,  and C++.</p>
-        <div>
-          <h5>More about Me:</h5>
-          <ul>
-            <li> Resume</li>
-            <li>  LinkedIn</li>
-            
-          </ul>
+      <section class="w-75 mx-auto" style={{ height: '300px' }}>
+        <div class="d-flex flex-box h-100">
+          <img class ="w-25 h-100" src={react}/>
+          <div class="w-50 h-75">
+            <h2 class=" w-50 h-25">Hi, I'm Max Joyce!</h2>
+            <p class="w-100 h-50"> I am a fullstack software engineer with experience using Javascript, React, Node.js, HTML, CSS, and MongoDB to create web applications. I also have experience using Docker and Kubernetes to containerize and deploy web applications. Also proficient with SQL, QML, Python,  and C++.</p>
+            <div class="w-50 h-25">
+            <h5>Relevant Links: Resume LinkedIn</h5>
+            </div>
+
           </div>
+         
+        </div>
       </section>
 
       <section class="w-50 mx-auto" style={{ height: '300px' }}>
