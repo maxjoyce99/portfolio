@@ -17,3 +17,8 @@ code {
   color: "red";
   background-color: rgb(96, 94, 218);
 }
+
+.img-fluid{
+  max-height:30%;
+
+}

@@ -1,5 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import js from './images/js.jpeg';
+import CSS3 from './images/CSS3.png';
+import html5 from './images/html5.png';
+import node from './images/node.png';
+import react from './images/react.png';
+
 
 function App() {
   return (
@@ -12,35 +19,65 @@ function App() {
     </header>
 
     <body className="App">
-      <div>
+      <section class="w-50 mx-auto" style={{ height: '300px' }}>
         <h2>Hi, I'm Max Joyce</h2>
         <p>Fullstack software engineer with experience using Javascript, React, Node.js, HTML, CSS, and MongoDB to create web applications. Experience using Docker and Kubernetes to containerize and deploy web applications. Also proficient with SQL, QML, Python,  and C++.</p>
-      </div>
-      <section>
+        <div>
+          <h5>More about Me:</h5>
+          <ul>
+            <li> Resume</li>
+            <li>  LinkedIn</li>
+            
+          </ul>
+          </div>
+      </section>
+
+      <section class="w-50 mx-auto" style={{ height: '300px' }}>
         <h2>Skills</h2>
-        <div class="all_skills">
-          <div class="skill">
-            <img src="html_finalprojimages/html5.png"/>
+        <div class="row justify-content-xl-between h-50" >
+          <div class="col border border-dark h-100 p-2 rounded ">
+            <img class ="img-fluid" src={html5}/>
             <h6>HTML</h6>
-            <p>2 years experience</p>
           </div>  
 
-          <div class="skill">
-            <img src="html_finalprojimages/js.jpeg"/>
+          <div class="col border border-dark h-100 p-2 rounded ">
+            <img class ="img-fluid" src={js}/>
             <h6>JavaScript</h6>
-            <p>3 years experience</p>
-          </div>  
+          </div>
+
+          <div class="col border border-dark h-100 p-2 rounded ">
+            <img class ="img-fluid" src={node}/>
+            <h6>Node.js</h6>
+          </div>
+
+          <div class="col border border-dark h-100 p-2 rounded ">
+            <img class ="img-fluid" src={react}/>
+            <h6>React</h6>
+          </div>
+
+          <div class="col border border-dark h-100 p-2 rounded ">
+            <img class ="img-fluid" src={CSS3}/>
+            <h6>CSS</h6>
+          </div>
+
         </div>
         
 
       </section>
 
-      <div>
+      <section class="w-50 mx-auto">
         <h2>Projects</h2>
-        
-        <a href="https://wherehaveibeenfrontend-production.up.railway.app/">WhereHaveIBeen</a>
+        <div class="d-flex flex-row mb-3 justify-content-center">
+          <div class="w-20 p-2">
+            <a href="https://wherehaveibeenfrontend-production.up.railway.app/">WhereHaveIBeen</a>
+          </div>
 
-      </div>
+          <div class="p-2">
+            <a href="https://wherehaveibeenfrontend-production.up.railway.app/">WhereHaveIBeen</a>
+          </div>
+
+        </div>
+      </section>
     </body>
     </>
   );
