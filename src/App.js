@@ -101,9 +101,9 @@ function App() {
 
       </section>
 
-      <section id="projects" class="w-75 mx-auto m-4" style={{ height: '500px' }}>
+      <section id="projects" class="w-75 mx-auto mt-4" style={{ height: '500px' }}>
         <h2>Projects</h2>
-        <div class="d-flex flex-row mb-3 justify-content-center justify-content-between">
+        <div class="d-flex flex-row justify-content-center justify-content-between">
           <div class="rounded border w-50 p-2 m-2">
             <a href="https://wherehaveibeenfrontend-production.up.railway.app/">WhereHaveIBeen</a>
             <ul>    
