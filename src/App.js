@@ -12,7 +12,7 @@ import me_hot_spring from './images/me_hot_spring.jpg'
 function App() {
   return (
     <>
-    <header class="d-flex flex-box w-100 bg-dark" style={{ height: '75px' }}>
+    <header class="d-flex flex-box w-100 bg-secondary" style={{ height: '75px' }}>
 
       <nav class="navbar navbar-expand navbar-dark w-75 h-100">
         <ul class="navbar-nav">
