@@ -117,12 +117,13 @@ function App() {
           </div>
 
           <div class="rounded border w-50 p-2 m-2">
-            <a href="https://google.com">Deadlock build website</a>
+            <a href="https://datafromcars.netlify.app/">Car Data Website</a>
             <ul>    
-              <li> Created a location-based picture-sharing web application using the MERN stack (MongoDB, React, Node.js, Express) and Leaflet</li>
-              <li> Integrated a front end, back end, and database, highlighting full-stack development skills</li>
-              <li> Implemented user profiles with maps and image points for each user</li>
-              <li> Added functionality for users to connect and befriend each other</li>
+              <li> Created a website to display data scraped from Edmunds and Carfax. Edmunds has a much larger dataset around 500,000 listings.</li>
+              <li> Used TypeScript, React, Node, Express, and MongoDb as a stack. </li>
+              <li> Integrated a front end with React and the Recharts library as well as tailwind for styling.</li>
+              <li> Implemented a backend with Express and MongoDB data aggregation. </li>
+              
               </ul>
           </div>
 
