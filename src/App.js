@@ -43,7 +43,7 @@ function App() {
     <body class="App">
       <section id="about" class="w-75 mx-auto" style={{ height: '400px' }}>
         <div class="d-flex justify-content-center flex-box h-100 p-4">
-          <img class ="w-25 h-100" src={me}/>
+          <img class ="object-fit-contain" src={me}/>
           <div class="w-50 h-75 m-2">
             <h2 class="w-100 h-25 align-self-center">Hi, I'm Max Joyce!</h2>
             <p class="w-100 h-50 p-2"> I am a fullstack software engineer with experience using 
