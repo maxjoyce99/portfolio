@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import js from './images/js.jpeg';
+import js from './images/js.png';
 import CSS3 from './images/CSS3.png';
 import html5 from './images/html5.png';
 import node from './images/node.png';
 import react from './images/react.png';
-import me_hot_spring from './images/me_hot_spring.jpg'
+import me from './images/me.png'
 import resume from './images/Maxwell_Joyce_Resume.pdf'
+import tailwind from './images/tailwind-css-logo.png'
 
 
 function App() {
@@ -40,9 +41,9 @@ function App() {
     </header>
 
     <body class="App">
-      <section id="about" class="w-75 mx-auto" style={{ height: '300px' }}>
+      <section id="about" class="w-75 mx-auto" style={{ height: '400px' }}>
         <div class="d-flex justify-content-center flex-box h-100 p-4">
-          <img class ="w-25 h-100" src={me_hot_spring}/>
+          <img class ="w-25 h-100" src={me}/>
           <div class="w-50 h-75 m-2">
             <h2 class="w-100 h-25 align-self-center">Hi, I'm Max Joyce!</h2>
             <p class="w-100 h-50 p-2"> I am a fullstack software engineer with experience using 
@@ -95,6 +96,12 @@ function App() {
           <div class="col d-flex flex-column align-items-center justify-content-center border border-white h-100 p-2 m-2 rounded">
             <img class ="img-fluid" src={CSS3}/>
             <h6>CSS</h6>
+          </div>
+
+
+          <div class="col d-flex flex-column align-items-center justify-content-center border border-white h-100 p-2 m-2 rounded">
+            <img class ="img-fluid" src={tailwind}/>
+            <h6>Tailwind</h6>
           </div>
 
         </div>
