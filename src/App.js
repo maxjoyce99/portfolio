@@ -113,7 +113,7 @@ function App() {
         <h2>Projects</h2>
         <div class="d-flex flex-row justify-content-center justify-content-between">
           <div class="rounded border w-50 p-2 m-2">
-            <a href="https://wherehaveibeenfrontend-production.up.railway.app/">WhereHaveIBeen</a>
+            <a href="https://wherehaveibeen.netlify.app/">WhereHaveIBeen</a>
             <ul>    
               <li> Created a location-based picture-sharing web application using the MERN stack (MongoDB, React, Node.js, Express) and Leaflet</li>
               <li> Integrated a front end, back end, and database, highlighting full-stack development skills</li>
